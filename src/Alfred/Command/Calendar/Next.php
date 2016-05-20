@@ -9,10 +9,6 @@ use Symfony\Component\Console\Output\OutputInterface;
 
 class Next extends Command {
 
-	public function __construct($name) {
-		parent::__construct($name);
-	}
-
 	protected function configure() {
 		$this->setName('calendar:next');
 		$this->setDescription("Show next entry in today's calendar");
