@@ -3,10 +3,22 @@
 
 require __DIR__ .'/../vendor/autoload.php';
 
+use Alfred\Command\Calendar;
+use Alfred\Command\Email;
+use Alfred\ServiceFactory;
 use Symfony\Component\Console\Application;
 
 $console = new Application;
 $console->setName('Alfred');
 $console->setVersion('0.1');
+
+$service_factory = new ServiceFactory();
+
+$console->add(new Calendar\Next($service_factory));
+$console->add(new Calendar\Day($service_factory));
+$console->add(new Calendar\Week($service_factory));
+$console->add(new Calendar\Month($service_factory));
+$console->add(new Email\Count($service_factory));
+
 
 $console->run();
