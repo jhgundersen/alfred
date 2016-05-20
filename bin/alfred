@@ -18,7 +18,7 @@ $console->add(new Calendar\Next($service_factory));
 $console->add(new Calendar\Day($service_factory));
 $console->add(new Calendar\Week($service_factory));
 $console->add(new Calendar\Month($service_factory));
-$console->add(new Email\Count($service_factory));
+$console->add(new Email\Unread($service_factory));
 
 
 $console->run();

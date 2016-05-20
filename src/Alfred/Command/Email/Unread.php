@@ -6,11 +6,11 @@ use Alfred\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 
-class Count extends Command {
+class Unread extends Command {
 
 	protected function configure() {
-		$this->setName('email:count');
-		$this->setDescription('Count number of emails');
+		$this->setName('email:unread');
+		$this->setDescription('Count number of unread emails in inbox');
 	}
 
 	protected function execute(InputInterface $input, OutputInterface $output) {
