@@ -3,7 +3,7 @@ namespace Alfred\Calendar;
 
 use DateTime;
 
-class Printer {
+class PrintEvents {
 
 	private $date_format;
 
@@ -19,7 +19,15 @@ class Printer {
 			$start = new DateTime($event->start->dateTime ?: $event->start->date);
 			$end = new DateTime($event->end->dateTime ?: $event->end->date);
 
-			printf("%s %s\n", $start->format($this->date_format), $event->getSummary());
+			$interval = $end->diff($start);
+			$summary = $event->getSummary();
+
+			if($interval->days > 1){
+				printf("%s-%s %s\n", $start->format('D d.m'), $end->format('d.m'), $summary);
+			}
+			else {
+				printf("%s %s\n", $start->format($this->date_format), $summary);
+			}
 		}
 	}
 }

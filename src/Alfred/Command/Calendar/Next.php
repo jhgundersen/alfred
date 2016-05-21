@@ -2,8 +2,8 @@
 
 namespace Alfred\Command\Calendar;
 
-use Alfred\Calendar\Printer;
-use Alfred\Calendar\Searcher;
+use Alfred\Calendar\PrintEvents;
+use Alfred\Calendar\ListEvents;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 
@@ -20,12 +20,13 @@ class Next extends Command {
 		$service_factory = $this->getServiceFactory($input);
 		$date = $this->getStartDate($input);
 
-		$searcher = new Searcher($service_factory);
+		$searcher = new ListEvents($service_factory);
 		$searcher->setMinTime($date);
 		$searcher->setMaxTime($date->modify('tomorrow'));
 		$searcher->setMaxResults(1);
+		$searcher->setCalendars($input->getOption('calendar'));
 
-		$printer = new Printer('H:i');
+		$printer = new PrintEvents('H:i');
 		$printer->printEvents($searcher->search());
 	}
 }

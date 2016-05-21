@@ -25,6 +25,6 @@ class Unread extends Command {
 			'q' => 'is:unread'
 		]);
 
-		print count($unread_messages->getMessages()) . "\n";
+		$output->writeln(count($unread_messages->getMessages()));
 	}
 }

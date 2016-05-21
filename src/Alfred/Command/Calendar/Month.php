@@ -2,8 +2,8 @@
 
 namespace Alfred\Command\Calendar;
 
-use Alfred\Calendar\Printer;
-use Alfred\Calendar\Searcher;
+use Alfred\Calendar\PrintEvents;
+use Alfred\Calendar\ListEvents;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 
@@ -20,11 +20,12 @@ class Month extends Command {
 		$service_factory = $this->getServiceFactory($input);
 		$date = $this->getStartDate($input);
 
-		$searcher = new Searcher($service_factory);
+		$searcher = new ListEvents($service_factory);
 		$searcher->setMinTime($date->modify('first day of this month'));
 		$searcher->setMaxTime($date->modify('last day of this month'));
+		$searcher->setCalendars($input->getOption('calendar'));
 
-		$printer = new Printer('D d.m H:i');
+		$printer = new PrintEvents('D d.m H:i');
 		$printer->printEvents($searcher->search());
 	}
 }

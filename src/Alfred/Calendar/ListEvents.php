@@ -4,13 +4,14 @@ namespace Alfred\Calendar;
 use Alfred\ServiceFactory;
 use DateTime;
 
-class Searcher {
+class ListEvents {
 
 	private $service_factory;
 	private $min_time;
 	private $max_time;
 	private $max_results = 250;
 	private $query;
+	private $calendars = ['primary'];
 
 	public function __construct(ServiceFactory $service_factory) {
 		$this->service_factory = $service_factory;
@@ -26,6 +27,10 @@ class Searcher {
 
 	public function setQuery($query){
 		$this->query = $query;
+	}
+
+	public function setCalendars(array $calendars){
+		$this->calendars = $calendars;
 	}
 
 	/**
@@ -51,9 +56,22 @@ class Searcher {
 			$options['q'] = $this->query;
 		}
 
-		$results = $calendar_service->events->listEvents('primary', $options);
+		$dates = [];
+		$items = [];
 
-		return $results->getItems();
+		foreach($this->calendars as $calendar){
+			$results = $calendar_service->events->listEvents($calendar, $options);
+
+			foreach($results->getItems() as $item){
+				$items[] = $item;
+				$dates[] = $item->start->dateTime ?: $item->start->date;
+
+			}
+		}
+
+		array_multisort($dates, $items);
+
+		return $items;
 	}
 
 	public function setMaxResults($max_results) {
