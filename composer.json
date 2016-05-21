@@ -7,7 +7,7 @@
     }
   ],
   "require": {
-    "symfony/console": "2.4.*",
+    "symfony/console": "3.*",
     "google/apiclient": "1.*"
   },
   "autoload": {

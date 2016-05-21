@@ -5,20 +5,21 @@ require __DIR__ .'/../vendor/autoload.php';
 
 use Alfred\Command\Calendar;
 use Alfred\Command\Email;
-use Alfred\ServiceFactory;
+use Alfred\Command\Account;
 use Symfony\Component\Console\Application;
 
 $console = new Application;
 $console->setName('Alfred');
 $console->setVersion('0.1');
 
-$service_factory = new ServiceFactory();
-
-$console->add(new Calendar\Next($service_factory));
-$console->add(new Calendar\Today($service_factory));
-$console->add(new Calendar\Week($service_factory));
-$console->add(new Calendar\Month($service_factory));
-$console->add(new Email\Unread($service_factory));
+$console->add(new Account\Register());
+$console->add(new Account\Show());
+$console->add(new Account\SetDefault());
+$console->add(new Calendar\Next());
+$console->add(new Calendar\Today());
+$console->add(new Calendar\Week());
+$console->add(new Calendar\Month());
+$console->add(new Email\Unread());
 
 
 $console->run();

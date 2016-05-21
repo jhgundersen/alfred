@@ -16,7 +16,7 @@ class Unread extends Command {
 	}
 
 	protected function execute(InputInterface $input, OutputInterface $output) {
-		$service_factory = $this->getServiceFactory();
+		$service_factory = $this->getServiceFactory($input);
 		$gmail_service = $service_factory->getGmailService();
 
 		$unread_messages = $gmail_service->users_messages->listUsersMessages('me', [

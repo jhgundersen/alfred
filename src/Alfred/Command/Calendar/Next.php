@@ -4,7 +4,6 @@ namespace Alfred\Command\Calendar;
 
 use Alfred\Calendar\Printer;
 use Alfred\Calendar\Searcher;
-use DateTime;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 
@@ -18,7 +17,7 @@ class Next extends Command {
 	}
 
 	protected function execute(InputInterface $input, OutputInterface $output) {
-		$service_factory = $this->getServiceFactory();
+		$service_factory = $this->getServiceFactory($input);
 		$date = $this->getDate($input);
 
 		$searcher = new Searcher($service_factory);

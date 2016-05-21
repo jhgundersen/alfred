@@ -11,13 +11,13 @@ class Month extends Command {
 
 	protected function configure() {
 		$this->setName('calendar:month');
-		$this->setDescription('Yay');
+		$this->setDescription('Show all events happening this month');
 		
 		parent::configure();
 	}
-	
+
 	protected function execute(InputInterface $input, OutputInterface $output) {
-		$service_factory = $this->getServiceFactory();
+		$service_factory = $this->getServiceFactory($input);
 		$date = $this->getDate($input);
 
 		$searcher = new Searcher($service_factory);
