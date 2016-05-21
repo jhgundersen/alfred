@@ -35,24 +35,29 @@ class PrintMessages {
 			$payload = $message->getPayload();
 			$headers = $payload->getHeaders();
 			$parts = $payload->getParts();
+			$body = null;
+			
+			if(isset($payload->body['data'])){
+				$body = $payload->body['data'];
+			}
+			elseif(isset($parts[0]['body'])){
+				$body = $parts[0]['body']->data;
+			}
 
 			$metadata = [];
 			foreach($headers as $header){
 				$metadata[$header->name] = $header->value;
 			}
 
-			if($this->include_full_body && $parts){
-				$body = $parts[0]['body'];
-				$rawData = $body->data;
-				$sanitizedData = strtr($rawData,'-_', '+/');
-				$text_message = base64_decode($sanitizedData);
+			if($this->include_full_body && $body){
+				$text_message = base64_decode(strtr($body,'-_', '+/'));
 			}
 			else {
 				$text_message = $message->getSnippet();
 			}
 
-			$date = new DateTime($metadata['Date']);
-			$date->setTimezone(new DateTimeZone('Europe/Oslo'));
+			$date = new DateTime('@' . floor($message->getInternalDate() / 1000));
+
 			$metadata['Date'] = $date->format('c');
 			$metadata['From'] = str_replace('"', '', $metadata['From']);
 			$metadata['To'] = str_replace('"', '', $metadata['To']);

@@ -21,8 +21,7 @@ class Unread extends Command {
 
 		$unread_messages = $gmail_service->users_messages->listUsersMessages('me', [
 			'maxResults' => 100,
-			'labelIds' => 'INBOX',
-			'q' => 'is:unread'
+			'labelIds' => ['INBOX', 'UNREAD']
 		]);
 
 		$output->writeln(count($unread_messages->getMessages()));

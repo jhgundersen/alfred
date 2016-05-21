@@ -25,6 +25,7 @@ $console->add(new Email\Unread());
 $console->add(new Email\Search());
 $console->add(new Email\Inbox());
 $console->add(new Email\Sent());
+$console->add(new Email\Chat());
 
 
 $console->run();

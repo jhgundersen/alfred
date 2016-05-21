@@ -9,7 +9,8 @@ abstract class Command extends \Alfred\Command {
 
 	protected function configure() {
 		$this->addOption('limit', 'l', InputOption::VALUE_REQUIRED, 'Max number of messages to fetch', 10);
-		$this->addOption('include-full-body', null, InputOption::VALUE_NONE, 'Include full body of email');
+		$this->addOption('full-body', null, InputOption::VALUE_NONE, 'Include full body of email');
+		$this->addOption('query', null, InputOption::VALUE_REQUIRED, 'Search for something');
 
 		parent::configure();
 	}
@@ -19,6 +20,10 @@ abstract class Command extends \Alfred\Command {
 	}
 
 	protected function includeFullBody(InputInterface $input){
-		return $input->getOption('include-full-body');
+		return $input->getOption('full-body');
+	}
+
+	protected function getQuery(InputInterface $input){
+		return $input->getOption('query');
 	}
 }
