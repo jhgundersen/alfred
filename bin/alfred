@@ -22,6 +22,9 @@ $console->add(new Calendar\Month());
 $console->add(new Calendar\Search());
 $console->add(new Calendar\Info());
 $console->add(new Email\Unread());
+$console->add(new Email\Search());
+$console->add(new Email\Inbox());
+$console->add(new Email\Sent());
 
 
 $console->run();
