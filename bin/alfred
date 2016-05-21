@@ -15,7 +15,7 @@ $console->setVersion('0.1');
 $service_factory = new ServiceFactory();
 
 $console->add(new Calendar\Next($service_factory));
-$console->add(new Calendar\Day($service_factory));
+$console->add(new Calendar\Today($service_factory));
 $console->add(new Calendar\Week($service_factory));
 $console->add(new Calendar\Month($service_factory));
 $console->add(new Email\Unread($service_factory));

@@ -11,6 +11,8 @@ class Unread extends Command {
 	protected function configure() {
 		$this->setName('email:unread');
 		$this->setDescription('Count number of unread emails in inbox');
+
+		parent::configure();
 	}
 
 	protected function execute(InputInterface $input, OutputInterface $output) {
