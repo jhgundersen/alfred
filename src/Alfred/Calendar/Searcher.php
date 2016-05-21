@@ -10,6 +10,7 @@ class Searcher {
 	private $min_time;
 	private $max_time;
 	private $max_results = 250;
+	private $query;
 
 	public function __construct(ServiceFactory $service_factory) {
 		$this->service_factory = $service_factory;
@@ -23,19 +24,34 @@ class Searcher {
 		$this->max_time = $date->format('c');
 	}
 
+	public function setQuery($query){
+		$this->query = $query;
+	}
+
 	/**
 	 * @return array|\Google_Service_Calendar_Event[]
 	 */
 	public function search(){
 		$calendar_service = $this->service_factory->getCalendarService();
-
-		$results = $calendar_service->events->listEvents('primary', [
+		$options = [
 			'maxResults' => $this->max_results,
 			'orderBy' => 'startTime',
-			'singleEvents' => true,
-			'timeMin' => $this->min_time,
-			'timeMax' => $this->max_time,
-		]);
+			'singleEvents' => true
+		];
+
+		if($this->min_time){
+			$options['timeMin'] = $this->min_time;
+		}
+
+		if($this->max_time){
+			$options['timeMax'] = $this->max_time;
+		}
+
+		if($this->query){
+			$options['q'] = $this->query;
+		}
+
+		$results = $calendar_service->events->listEvents('primary', $options);
 
 		return $results->getItems();
 	}

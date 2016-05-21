@@ -18,7 +18,7 @@ class Week extends Command {
 
 	protected function execute(InputInterface $input, OutputInterface $output) {
 		$service_factory = $this->getServiceFactory($input);
-		$date = $this->getDate($input);
+		$date = $this->getStartDate($input);
 
 		$searcher = new Searcher($service_factory);
 		$searcher->setMinTime($date->modify('monday this week'));

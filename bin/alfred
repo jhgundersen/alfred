@@ -19,6 +19,7 @@ $console->add(new Calendar\Next());
 $console->add(new Calendar\Today());
 $console->add(new Calendar\Week());
 $console->add(new Calendar\Month());
+$console->add(new Calendar\Search());
 $console->add(new Email\Unread());
 
 

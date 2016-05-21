@@ -17,8 +17,9 @@ class Printer {
 	public function printEvents(array $events){
 		foreach($events as $event){
 			$start = new DateTime($event->start->dateTime ?: $event->start->date);
+			$end = new DateTime($event->end->dateTime ?: $event->end->date);
 
-			printf("%s %s\n", $start->format($this->date_format), $event->getSummary());
+			printf("%s - %s %s\n", $start->format($this->date_format), $event->getSummary());
 		}
 	}
 }
