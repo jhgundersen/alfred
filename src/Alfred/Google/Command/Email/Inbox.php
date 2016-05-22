@@ -21,7 +21,8 @@ class Inbox extends Command {
 
 		$unread_messages = $gmail_service->users_messages->listUsersMessages('me', [
 			'maxResults' => $this->getMaxResults($input),
-			'labelIds' => 'INBOX'
+			'labelIds' => 'INBOX',
+			'q' => $this->getQuery($input)
 		]);
 		
 		$printer = new PrintMessages($gmail_service);
