@@ -26,6 +26,7 @@ $console->add(new Calendar\Week($google_service_factory));
 $console->add(new Calendar\Month($google_service_factory));
 $console->add(new Calendar\Search($google_service_factory));
 $console->add(new Calendar\Info($google_service_factory));
+$console->add(new Calendar\Birthdays($google_service_factory));
 $console->add(new Email\Unread($google_service_factory));
 $console->add(new Email\Search($google_service_factory));
 $console->add(new Email\Inbox($google_service_factory));
