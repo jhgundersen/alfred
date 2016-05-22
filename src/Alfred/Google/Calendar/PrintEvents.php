@@ -23,6 +23,11 @@ class PrintEvents {
 			$summary = $event->getSummary();
 
 			if($interval->days > 1){
+
+				if($end->format('Hi') === "0000"){
+					$end->modify('-1min');
+				}
+				
 				printf("%s-%s %s\n", $start->format('D d.m'), $end->format('d.m'), $summary);
 			}
 			else {
