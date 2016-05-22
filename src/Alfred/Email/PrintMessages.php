@@ -36,7 +36,7 @@ class PrintMessages {
 			$headers = $payload->getHeaders();
 			$parts = $payload->getParts();
 			$body = null;
-			
+
 			if(isset($payload->body['data'])){
 				$body = $payload->body['data'];
 			}
@@ -58,6 +58,7 @@ class PrintMessages {
 
 			$date = new DateTime('@' . floor($message->getInternalDate() / 1000));
 
+			$metadata['Subject'] = isset($metadata['Subject']) ? $metadata['Subject'] : '';
 			$metadata['Date'] = $date->format('c');
 			$metadata['From'] = str_replace('"', '', $metadata['From']);
 			$metadata['To'] = str_replace('"', '', $metadata['To']);

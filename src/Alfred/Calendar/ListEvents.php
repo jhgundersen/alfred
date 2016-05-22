@@ -1,7 +1,7 @@
 <?php
 namespace Alfred\Calendar;
 
-use Alfred\ServiceFactory;
+use Alfred\GoogleServiceFactory;
 use DateTime;
 
 class ListEvents {
@@ -13,7 +13,7 @@ class ListEvents {
 	private $query;
 	private $calendars = ['primary'];
 
-	public function __construct(ServiceFactory $service_factory) {
+	public function __construct(GoogleServiceFactory $service_factory) {
 		$this->service_factory = $service_factory;
 	}
 

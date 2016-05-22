@@ -9,7 +9,7 @@ abstract class Command extends \Symfony\Component\Console\Command\Command {
 
 	protected function getServiceFactory(InputInterface $input){
 		$account = $input->hasOption('account') ? $input->getOption('account') : '';
-		return new ServiceFactory($account);
+		return new GoogleServiceFactory($account);
 	}
 
 	protected function configure() {
