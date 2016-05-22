@@ -2,8 +2,8 @@
 
 namespace Alfred\Google\Command\Calendar;
 
-use Alfred\Calendar\PrintEvents;
-use Alfred\Calendar\ListEvents;
+use Alfred\Google\Calendar\PrintEvents;
+use Alfred\Google\Calendar\ListEvents;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 

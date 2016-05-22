@@ -2,8 +2,7 @@
 
 namespace Alfred\Google\Command\Email;
 
-use Alfred\Email\PrintMessages;
-use Symfony\Component\Console\Input\InputArgument;
+use Alfred\Google\Email\PrintMessages;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 
