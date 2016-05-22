@@ -1,0 +1,2135 @@
+object(stdClass)#109 (9) {
+  ["latitude"]=>
+  float(58.96367)
+  ["longitude"]=>
+  float(5.60735)
+  ["timezone"]=>
+  string(11) "Europe/Oslo"
+  ["offset"]=>
+  int(2)
+  ["currently"]=>
+  object(stdClass)#111 (16) {
+    ["time"]=>
+    int(1463936335)
+    ["summary"]=>
+    string(10) "Light Rain"
+    ["icon"]=>
+    string(4) "rain"
+    ["precipIntensity"]=>
+    float(0.6325)
+    ["precipProbability"]=>
+    float(0.61)
+    ["precipType"]=>
+    string(4) "rain"
+    ["temperature"]=>
+    float(11.18)
+    ["apparentTemperature"]=>
+    float(11.18)
+    ["dewPoint"]=>
+    float(10.18)
+    ["humidity"]=>
+    float(0.94)
+    ["windSpeed"]=>
+    float(1.78)
+    ["windBearing"]=>
+    int(254)
+    ["visibility"]=>
+    float(4.39)
+    ["cloudCover"]=>
+    float(0.66)
+    ["pressure"]=>
+    float(1006.21)
+    ["ozone"]=>
+    float(363.41)
+  }
+  ["hourly"]=>
+  object(stdClass)#112 (3) {
+    ["summary"]=>
+    string(30) "Light rain throughout the day."
+    ["icon"]=>
+    string(4) "rain"
+    ["data"]=>
+    array(49) {
+      [0]=>
+      object(stdClass)#113 (16) {
+        ["time"]=>
+        int(1463932800)
+        ["summary"]=>
+        string(10) "Light Rain"
+        ["icon"]=>
+        string(4) "rain"
+        ["precipIntensity"]=>
+        float(0.4267)
+        ["precipProbability"]=>
+        float(0.56)
+        ["precipType"]=>
+        string(4) "rain"
+        ["temperature"]=>
+        float(12.06)
+        ["apparentTemperature"]=>
+        float(12.06)
+        ["dewPoint"]=>
+        float(11.07)
+        ["humidity"]=>
+        float(0.94)
+        ["windSpeed"]=>
+        float(1.69)
+        ["windBearing"]=>
+        int(246)
+        ["visibility"]=>
+        float(4.39)
+        ["cloudCover"]=>
+        float(0.52)
+        ["pressure"]=>
+        float(1006.17)
+        ["ozone"]=>
+        float(362.3)
+      }
+      [1]=>
+      object(stdClass)#114 (16) {
+        ["time"]=>
+        int(1463936400)
+        ["summary"]=>
+        string(10) "Light Rain"
+        ["icon"]=>
+        string(4) "rain"
+        ["precipIntensity"]=>
+        float(0.635)
+        ["precipProbability"]=>
+        float(0.61)
+        ["precipType"]=>
+        string(4) "rain"
+        ["temperature"]=>
+        float(11.16)
+        ["apparentTemperature"]=>
+        float(11.16)
+        ["dewPoint"]=>
+        float(10.17)
+        ["humidity"]=>
+        float(0.94)
+        ["windSpeed"]=>
+        float(1.79)
+        ["windBearing"]=>
+        int(254)
+        ["visibility"]=>
+        float(4.39)
+        ["cloudCover"]=>
+        float(0.66)
+        ["pressure"]=>
+        float(1006.22)
+        ["ozone"]=>
+        float(363.43)
+      }
+      [2]=>
+      object(stdClass)#115 (16) {
+        ["time"]=>
+        int(1463940000)
+        ["summary"]=>
+        string(10) "Light Rain"
+        ["icon"]=>
+        string(4) "rain"
+        ["precipIntensity"]=>
+        float(0.7163)
+        ["precipProbability"]=>
+        float(0.62)
+        ["precipType"]=>
+        string(4) "rain"
+        ["temperature"]=>
+        float(10.43)
+        ["apparentTemperature"]=>
+        float(10.43)
+        ["dewPoint"]=>
+        float(9.45)
+        ["humidity"]=>
+        float(0.94)
+        ["windSpeed"]=>
+        float(1.65)
+        ["windBearing"]=>
+        int(264)
+        ["visibility"]=>
+        float(4.39)
+        ["cloudCover"]=>
+        float(0.75)
+        ["pressure"]=>
+        float(1006.31)
+        ["ozone"]=>
+        float(364.21)
+      }
+      [3]=>
+      object(stdClass)#116 (16) {
+        ["time"]=>
+        int(1463943600)
+        ["summary"]=>
+        string(10) "Light Rain"
+        ["icon"]=>
+        string(4) "rain"
+        ["precipIntensity"]=>
+        float(0.5867)
+        ["precipProbability"]=>
+        float(0.6)
+        ["precipType"]=>
+        string(4) "rain"
+        ["temperature"]=>
+        float(10.19)
+        ["apparentTemperature"]=>
+        float(10.19)
+        ["dewPoint"]=>
+        float(9.24)
+        ["humidity"]=>
+        float(0.94)
+        ["windSpeed"]=>
+        float(1.18)
+        ["windBearing"]=>
+        int(283)
+        ["visibility"]=>
+        float(4.39)
+        ["cloudCover"]=>
+        float(0.84)
+        ["pressure"]=>
+        float(1006.49)
+        ["ozone"]=>
+        float(364.42)
+      }
+      [4]=>
+      object(stdClass)#117 (16) {
+        ["time"]=>
+        int(1463947200)
+        ["summary"]=>
+        string(10) "Light Rain"
+        ["icon"]=>
+        string(4) "rain"
+        ["precipIntensity"]=>
+        float(0.3531)
+        ["precipProbability"]=>
+        float(0.54)
+        ["precipType"]=>
+        string(4) "rain"
+        ["temperature"]=>
+        float(10.17)
+        ["apparentTemperature"]=>
+        float(10.17)
+        ["dewPoint"]=>
+        float(9.27)
+        ["humidity"]=>
+        float(0.94)
+        ["windSpeed"]=>
+        float(1.01)
+        ["windBearing"]=>
+        int(324)
+        ["visibility"]=>
+        float(4.39)
+        ["cloudCover"]=>
+        float(0.91)
+        ["pressure"]=>
+        float(1006.71)
+        ["ozone"]=>
+        float(364.28)
+      }
+      [5]=>
+      object(stdClass)#118 (16) {
+        ["time"]=>
+        int(1463950800)
+        ["summary"]=>
+        string(7) "Drizzle"
+        ["icon"]=>
+        string(4) "rain"
+        ["precipIntensity"]=>
+        float(0.1702)
+        ["precipProbability"]=>
+        float(0.33)
+        ["precipType"]=>
+        string(4) "rain"
+        ["temperature"]=>
+        float(10.04)
+        ["apparentTemperature"]=>
+        float(10.04)
+        ["dewPoint"]=>
+        float(9.18)
+        ["humidity"]=>
+        float(0.94)
+        ["windSpeed"]=>
+        float(1.59)
+        ["windBearing"]=>
+        int(343)
+        ["visibility"]=>
+        float(4.39)
+        ["cloudCover"]=>
+        float(0.95)
+        ["pressure"]=>
+        float(1006.93)
+        ["ozone"]=>
+        float(364.12)
+      }
+      [6]=>
+      object(stdClass)#119 (15) {
+        ["time"]=>
+        int(1463954400)
+        ["summary"]=>
+        string(8) "Overcast"
+        ["icon"]=>
+        string(6) "cloudy"
+        ["precipIntensity"]=>
+        float(0.1067)
+        ["precipProbability"]=>
+        float(0.17)
+        ["precipType"]=>
+        string(4) "rain"
+        ["temperature"]=>
+        float(9.31)
+        ["apparentTemperature"]=>
+        float(8.23)
+        ["dewPoint"]=>
+        float(8.46)
+        ["humidity"]=>
+        float(0.94)
+        ["windSpeed"]=>
+        float(2.19)
+        ["windBearing"]=>
+        int(340)
+        ["cloudCover"]=>
+        int(1)
+        ["pressure"]=>
+        float(1007.13)
+        ["ozone"]=>
+        float(364.04)
+      }
+      [7]=>
+      object(stdClass)#120 (15) {
+        ["time"]=>
+        int(1463958000)
+        ["summary"]=>
+        string(8) "Overcast"
+        ["icon"]=>
+        string(6) "cloudy"
+        ["precipIntensity"]=>
+        float(0.0914)
+        ["precipProbability"]=>
+        float(0.14)
+        ["precipType"]=>
+        string(4) "rain"
+        ["temperature"]=>
+        float(8.72)
+        ["apparentTemperature"]=>
+        float(7.01)
+        ["dewPoint"]=>
+        float(7.87)
+        ["humidity"]=>
+        float(0.94)
+        ["windSpeed"]=>
+        float(2.96)
+        ["windBearing"]=>
+        int(333)
+        ["cloudCover"]=>
+        int(1)
+        ["pressure"]=>
+        float(1007.31)
+        ["ozone"]=>
+        float(363.93)
+      }
+      [8]=>
+      object(stdClass)#121 (15) {
+        ["time"]=>
+        int(1463961600)
+        ["summary"]=>
+        string(8) "Overcast"
+        ["icon"]=>
+        string(6) "cloudy"
+        ["precipIntensity"]=>
+        float(0.0864)
+        ["precipProbability"]=>
+        float(0.13)
+        ["precipType"]=>
+        string(4) "rain"
+        ["temperature"]=>
+        float(8.49)
+        ["apparentTemperature"]=>
+        float(6.24)
+        ["dewPoint"]=>
+        float(7.62)
+        ["humidity"]=>
+        float(0.94)
+        ["windSpeed"]=>
+        float(3.8)
+        ["windBearing"]=>
+        int(328)
+        ["cloudCover"]=>
+        int(1)
+        ["pressure"]=>
+        float(1007.48)
+        ["ozone"]=>
+        float(363.82)
+      }
+      [9]=>
+      object(stdClass)#122 (15) {
+        ["time"]=>
+        int(1463965200)
+        ["summary"]=>
+        string(8) "Overcast"
+        ["icon"]=>
+        string(6) "cloudy"
+        ["precipIntensity"]=>
+        float(0.0711)
+        ["precipProbability"]=>
+        float(0.1)
+        ["precipType"]=>
+        string(4) "rain"
+        ["temperature"]=>
+        float(8.2)
+        ["apparentTemperature"]=>
+        float(5.57)
+        ["dewPoint"]=>
+        float(7.35)
+        ["humidity"]=>
+        float(0.94)
+        ["windSpeed"]=>
+        float(4.47)
+        ["windBearing"]=>
+        int(328)
+        ["cloudCover"]=>
+        int(1)
+        ["pressure"]=>
+        float(1007.6)
+        ["ozone"]=>
+        float(363.55)
+      }
+      [10]=>
+      object(stdClass)#123 (15) {
+        ["time"]=>
+        int(1463968800)
+        ["summary"]=>
+        string(8) "Overcast"
+        ["icon"]=>
+        string(6) "cloudy"
+        ["precipIntensity"]=>
+        float(0.061)
+        ["precipProbability"]=>
+        float(0.07)
+        ["precipType"]=>
+        string(4) "rain"
+        ["temperature"]=>
+        float(7.81)
+        ["apparentTemperature"]=>
+        float(4.82)
+        ["dewPoint"]=>
+        float(6.98)
+        ["humidity"]=>
+        float(0.95)
+        ["windSpeed"]=>
+        float(5.06)
+        ["windBearing"]=>
+        int(329)
+        ["cloudCover"]=>
+        int(1)
+        ["pressure"]=>
+        float(1007.7)
+        ["ozone"]=>
+        float(363.28)
+      }
+      [11]=>
+      object(stdClass)#124 (15) {
+        ["time"]=>
+        int(1463972400)
+        ["summary"]=>
+        string(8) "Overcast"
+        ["icon"]=>
+        string(6) "cloudy"
+        ["precipIntensity"]=>
+        float(0.0508)
+        ["precipProbability"]=>
+        float(0.06)
+        ["precipType"]=>
+        string(4) "rain"
+        ["temperature"]=>
+        float(8.07)
+        ["apparentTemperature"]=>
+        float(4.96)
+        ["dewPoint"]=>
+        float(7.23)
+        ["humidity"]=>
+        float(0.94)
+        ["windSpeed"]=>
+        float(5.55)
+        ["windBearing"]=>
+        int(330)
+        ["cloudCover"]=>
+        int(1)
+        ["pressure"]=>
+        float(1007.87)
+        ["ozone"]=>
+        float(363.49)
+      }
+      [12]=>
+      object(stdClass)#125 (15) {
+        ["time"]=>
+        int(1463976000)
+        ["summary"]=>
+        string(8) "Overcast"
+        ["icon"]=>
+        string(6) "cloudy"
+        ["precipIntensity"]=>
+        float(0.0356)
+        ["precipProbability"]=>
+        float(0.03)
+        ["precipType"]=>
+        string(4) "rain"
+        ["temperature"]=>
+        float(8.38)
+        ["apparentTemperature"]=>
+        float(5.29)
+        ["dewPoint"]=>
+        float(7.45)
+        ["humidity"]=>
+        float(0.94)
+        ["windSpeed"]=>
+        float(5.7)
+        ["windBearing"]=>
+        int(331)
+        ["cloudCover"]=>
+        float(0.98)
+        ["pressure"]=>
+        float(1008.16)
+        ["ozone"]=>
+        float(364.91)
+      }
+      [13]=>
+      object(stdClass)#126 (15) {
+        ["time"]=>
+        int(1463979600)
+        ["summary"]=>
+        string(8) "Overcast"
+        ["icon"]=>
+        string(6) "cloudy"
+        ["precipIntensity"]=>
+        float(0.0203)
+        ["precipProbability"]=>
+        float(0.01)
+        ["precipType"]=>
+        string(4) "rain"
+        ["temperature"]=>
+        float(8.64)
+        ["apparentTemperature"]=>
+        float(5.63)
+        ["dewPoint"]=>
+        float(7.58)
+        ["humidity"]=>
+        float(0.93)
+        ["windSpeed"]=>
+        float(5.7)
+        ["windBearing"]=>
+        int(333)
+        ["cloudCover"]=>
+        float(0.95)
+        ["pressure"]=>
+        float(1008.5)
+        ["ozone"]=>
+        float(366.8)
+      }
+      [14]=>
+      object(stdClass)#127 (14) {
+        ["time"]=>
+        int(1463983200)
+        ["summary"]=>
+        string(13) "Mostly Cloudy"
+        ["icon"]=>
+        string(17) "partly-cloudy-day"
+        ["precipIntensity"]=>
+        int(0)
+        ["precipProbability"]=>
+        int(0)
+        ["temperature"]=>
+        float(8.96)
+        ["apparentTemperature"]=>
+        float(5.99)
+        ["dewPoint"]=>
+        float(7.71)
+        ["humidity"]=>
+        float(0.92)
+        ["windSpeed"]=>
+        float(5.78)
+        ["windBearing"]=>
+        int(334)
+        ["cloudCover"]=>
+        float(0.91)
+        ["pressure"]=>
+        float(1008.86)
+        ["ozone"]=>
+        float(367.5)
+      }
+      [15]=>
+      object(stdClass)#128 (14) {
+        ["time"]=>
+        int(1463986800)
+        ["summary"]=>
+        string(13) "Mostly Cloudy"
+        ["icon"]=>
+        string(17) "partly-cloudy-day"
+        ["precipIntensity"]=>
+        int(0)
+        ["precipProbability"]=>
+        int(0)
+        ["temperature"]=>
+        float(9.53)
+        ["apparentTemperature"]=>
+        float(6.63)
+        ["dewPoint"]=>
+        float(8.02)
+        ["humidity"]=>
+        float(0.9)
+        ["windSpeed"]=>
+        float(6.02)
+        ["windBearing"]=>
+        int(335)
+        ["cloudCover"]=>
+        float(0.83)
+        ["pressure"]=>
+        float(1009.22)
+        ["ozone"]=>
+        float(365.97)
+      }
+      [16]=>
+      object(stdClass)#129 (14) {
+        ["time"]=>
+        int(1463990400)
+        ["summary"]=>
+        string(13) "Mostly Cloudy"
+        ["icon"]=>
+        string(17) "partly-cloudy-day"
+        ["precipIntensity"]=>
+        int(0)
+        ["precipProbability"]=>
+        int(0)
+        ["temperature"]=>
+        float(10.43)
+        ["apparentTemperature"]=>
+        float(10.43)
+        ["dewPoint"]=>
+        float(8.59)
+        ["humidity"]=>
+        float(0.88)
+        ["windSpeed"]=>
+        float(6.33)
+        ["windBearing"]=>
+        int(334)
+        ["cloudCover"]=>
+        float(0.73)
+        ["pressure"]=>
+        float(1009.6)
+        ["ozone"]=>
+        float(363.24)
+      }
+      [17]=>
+      object(stdClass)#130 (14) {
+        ["time"]=>
+        int(1463994000)
+        ["summary"]=>
+        string(13) "Mostly Cloudy"
+        ["icon"]=>
+        string(17) "partly-cloudy-day"
+        ["precipIntensity"]=>
+        int(0)
+        ["precipProbability"]=>
+        int(0)
+        ["temperature"]=>
+        float(11.53)
+        ["apparentTemperature"]=>
+        float(11.53)
+        ["dewPoint"]=>
+        float(9.34)
+        ["humidity"]=>
+        float(0.86)
+        ["windSpeed"]=>
+        float(6.65)
+        ["windBearing"]=>
+        int(333)
+        ["cloudCover"]=>
+        float(0.63)
+        ["pressure"]=>
+        float(1009.98)
+        ["ozone"]=>
+        float(360.75)
+      }
+      [18]=>
+      object(stdClass)#131 (14) {
+        ["time"]=>
+        int(1463997600)
+        ["summary"]=>
+        string(13) "Partly Cloudy"
+        ["icon"]=>
+        string(17) "partly-cloudy-day"
+        ["precipIntensity"]=>
+        int(0)
+        ["precipProbability"]=>
+        int(0)
+        ["temperature"]=>
+        float(12.69)
+        ["apparentTemperature"]=>
+        float(12.69)
+        ["dewPoint"]=>
+        float(10.17)
+        ["humidity"]=>
+        float(0.85)
+        ["windSpeed"]=>
+        float(6.99)
+        ["windBearing"]=>
+        int(332)
+        ["cloudCover"]=>
+        float(0.55)
+        ["pressure"]=>
+        float(1010.35)
+        ["ozone"]=>
+        float(358.95)
+      }
+      [19]=>
+      object(stdClass)#132 (14) {
+        ["time"]=>
+        int(1464001200)
+        ["summary"]=>
+        string(13) "Partly Cloudy"
+        ["icon"]=>
+        string(17) "partly-cloudy-day"
+        ["precipIntensity"]=>
+        int(0)
+        ["precipProbability"]=>
+        int(0)
+        ["temperature"]=>
+        float(13.8)
+        ["apparentTemperature"]=>
+        float(13.8)
+        ["dewPoint"]=>
+        float(10.94)
+        ["humidity"]=>
+        float(0.83)
+        ["windSpeed"]=>
+        float(7.39)
+        ["windBearing"]=>
+        int(330)
+        ["cloudCover"]=>
+        float(0.49)
+        ["pressure"]=>
+        float(1010.71)
+        ["ozone"]=>
+        float(357.39)
+      }
+      [20]=>
+      object(stdClass)#133 (14) {
+        ["time"]=>
+        int(1464004800)
+        ["summary"]=>
+        string(13) "Partly Cloudy"
+        ["icon"]=>
+        string(17) "partly-cloudy-day"
+        ["precipIntensity"]=>
+        int(0)
+        ["precipProbability"]=>
+        int(0)
+        ["temperature"]=>
+        float(14.47)
+        ["apparentTemperature"]=>
+        float(14.47)
+        ["dewPoint"]=>
+        float(11.31)
+        ["humidity"]=>
+        float(0.81)
+        ["windSpeed"]=>
+        float(7.77)
+        ["windBearing"]=>
+        int(330)
+        ["cloudCover"]=>
+        float(0.45)
+        ["pressure"]=>
+        float(1011.04)
+        ["ozone"]=>
+        float(356.13)
+      }
+      [21]=>
+      object(stdClass)#134 (14) {
+        ["time"]=>
+        int(1464008400)
+        ["summary"]=>
+        string(13) "Partly Cloudy"
+        ["icon"]=>
+        string(17) "partly-cloudy-day"
+        ["precipIntensity"]=>
+        int(0)
+        ["precipProbability"]=>
+        int(0)
+        ["temperature"]=>
+        float(14.19)
+        ["apparentTemperature"]=>
+        float(14.19)
+        ["dewPoint"]=>
+        float(10.79)
+        ["humidity"]=>
+        float(0.8)
+        ["windSpeed"]=>
+        float(8.14)
+        ["windBearing"]=>
+        int(330)
+        ["cloudCover"]=>
+        float(0.44)
+        ["pressure"]=>
+        float(1011.34)
+        ["ozone"]=>
+        float(355.16)
+      }
+      [22]=>
+      object(stdClass)#135 (14) {
+        ["time"]=>
+        int(1464012000)
+        ["summary"]=>
+        string(13) "Partly Cloudy"
+        ["icon"]=>
+        string(17) "partly-cloudy-day"
+        ["precipIntensity"]=>
+        int(0)
+        ["precipProbability"]=>
+        int(0)
+        ["temperature"]=>
+        float(13.57)
+        ["apparentTemperature"]=>
+        float(13.57)
+        ["dewPoint"]=>
+        float(9.97)
+        ["humidity"]=>
+        float(0.79)
+        ["windSpeed"]=>
+        float(8.52)
+        ["windBearing"]=>
+        int(331)
+        ["cloudCover"]=>
+        float(0.46)
+        ["pressure"]=>
+        float(1011.61)
+        ["ozone"]=>
+        float(354.5)
+      }
+      [23]=>
+      object(stdClass)#136 (14) {
+        ["time"]=>
+        int(1464015600)
+        ["summary"]=>
+        string(13) "Partly Cloudy"
+        ["icon"]=>
+        string(17) "partly-cloudy-day"
+        ["precipIntensity"]=>
+        int(0)
+        ["precipProbability"]=>
+        int(0)
+        ["temperature"]=>
+        float(12.81)
+        ["apparentTemperature"]=>
+        float(12.81)
+        ["dewPoint"]=>
+        float(9.06)
+        ["humidity"]=>
+        float(0.78)
+        ["windSpeed"]=>
+        float(8.78)
+        ["windBearing"]=>
+        int(332)
+        ["cloudCover"]=>
+        float(0.52)
+        ["pressure"]=>
+        float(1011.88)
+        ["ozone"]=>
+        float(354.27)
+      }
+      [24]=>
+      object(stdClass)#137 (14) {
+        ["time"]=>
+        int(1464019200)
+        ["summary"]=>
+        string(13) "Mostly Cloudy"
+        ["icon"]=>
+        string(17) "partly-cloudy-day"
+        ["precipIntensity"]=>
+        int(0)
+        ["precipProbability"]=>
+        int(0)
+        ["temperature"]=>
+        float(12.04)
+        ["apparentTemperature"]=>
+        float(12.04)
+        ["dewPoint"]=>
+        float(8.19)
+        ["humidity"]=>
+        float(0.77)
+        ["windSpeed"]=>
+        float(8.87)
+        ["windBearing"]=>
+        int(334)
+        ["cloudCover"]=>
+        float(0.66)
+        ["pressure"]=>
+        float(1012.18)
+        ["ozone"]=>
+        float(354.56)
+      }
+      [25]=>
+      object(stdClass)#138 (14) {
+        ["time"]=>
+        int(1464022800)
+        ["summary"]=>
+        string(13) "Mostly Cloudy"
+        ["icon"]=>
+        string(17) "partly-cloudy-day"
+        ["precipIntensity"]=>
+        int(0)
+        ["precipProbability"]=>
+        int(0)
+        ["temperature"]=>
+        float(11.3)
+        ["apparentTemperature"]=>
+        float(11.3)
+        ["dewPoint"]=>
+        float(7.41)
+        ["humidity"]=>
+        float(0.77)
+        ["windSpeed"]=>
+        float(8.85)
+        ["windBearing"]=>
+        int(335)
+        ["cloudCover"]=>
+        float(0.84)
+        ["pressure"]=>
+        float(1012.5)
+        ["ozone"]=>
+        float(355.28)
+      }
+      [26]=>
+      object(stdClass)#139 (14) {
+        ["time"]=>
+        int(1464026400)
+        ["summary"]=>
+        string(13) "Mostly Cloudy"
+        ["icon"]=>
+        string(17) "partly-cloudy-day"
+        ["precipIntensity"]=>
+        int(0)
+        ["precipProbability"]=>
+        int(0)
+        ["temperature"]=>
+        float(10.64)
+        ["apparentTemperature"]=>
+        float(10.64)
+        ["dewPoint"]=>
+        float(6.75)
+        ["humidity"]=>
+        float(0.77)
+        ["windSpeed"]=>
+        float(8.78)
+        ["windBearing"]=>
+        int(337)
+        ["cloudCover"]=>
+        float(0.92)
+        ["pressure"]=>
+        float(1012.84)
+        ["ozone"]=>
+        float(356.26)
+      }
+      [27]=>
+      object(stdClass)#140 (14) {
+        ["time"]=>
+        int(1464030000)
+        ["summary"]=>
+        string(13) "Mostly Cloudy"
+        ["icon"]=>
+        string(17) "partly-cloudy-day"
+        ["precipIntensity"]=>
+        int(0)
+        ["precipProbability"]=>
+        int(0)
+        ["temperature"]=>
+        float(9.98)
+        ["apparentTemperature"]=>
+        float(6.48)
+        ["dewPoint"]=>
+        float(6.18)
+        ["humidity"]=>
+        float(0.77)
+        ["windSpeed"]=>
+        float(8.65)
+        ["windBearing"]=>
+        int(339)
+        ["cloudCover"]=>
+        float(0.84)
+        ["pressure"]=>
+        float(1013.21)
+        ["ozone"]=>
+        float(357.68)
+      }
+      [28]=>
+      object(stdClass)#141 (14) {
+        ["time"]=>
+        int(1464033600)
+        ["summary"]=>
+        string(13) "Mostly Cloudy"
+        ["icon"]=>
+        string(17) "partly-cloudy-day"
+        ["precipIntensity"]=>
+        int(0)
+        ["precipProbability"]=>
+        int(0)
+        ["temperature"]=>
+        float(9.31)
+        ["apparentTemperature"]=>
+        float(5.65)
+        ["dewPoint"]=>
+        float(5.67)
+        ["humidity"]=>
+        float(0.78)
+        ["windSpeed"]=>
+        float(8.45)
+        ["windBearing"]=>
+        int(341)
+        ["cloudCover"]=>
+        float(0.66)
+        ["pressure"]=>
+        float(1013.61)
+        ["ozone"]=>
+        float(359.36)
+      }
+      [29]=>
+      object(stdClass)#142 (14) {
+        ["time"]=>
+        int(1464037200)
+        ["summary"]=>
+        string(13) "Partly Cloudy"
+        ["icon"]=>
+        string(19) "partly-cloudy-night"
+        ["precipIntensity"]=>
+        int(0)
+        ["precipProbability"]=>
+        int(0)
+        ["temperature"]=>
+        float(8.74)
+        ["apparentTemperature"]=>
+        float(4.97)
+        ["dewPoint"]=>
+        float(5.24)
+        ["humidity"]=>
+        float(0.79)
+        ["windSpeed"]=>
+        float(8.26)
+        ["windBearing"]=>
+        int(342)
+        ["cloudCover"]=>
+        float(0.5)
+        ["pressure"]=>
+        float(1013.99)
+        ["ozone"]=>
+        float(360.59)
+      }
+      [30]=>
+      object(stdClass)#143 (14) {
+        ["time"]=>
+        int(1464040800)
+        ["summary"]=>
+        string(13) "Partly Cloudy"
+        ["icon"]=>
+        string(19) "partly-cloudy-night"
+        ["precipIntensity"]=>
+        int(0)
+        ["precipProbability"]=>
+        int(0)
+        ["temperature"]=>
+        float(8.39)
+        ["apparentTemperature"]=>
+        float(4.57)
+        ["dewPoint"]=>
+        float(4.98)
+        ["humidity"]=>
+        float(0.79)
+        ["windSpeed"]=>
+        float(8.07)
+        ["windBearing"]=>
+        int(343)
+        ["cloudCover"]=>
+        float(0.42)
+        ["pressure"]=>
+        float(1014.36)
+        ["ozone"]=>
+        float(360.97)
+      }
+      [31]=>
+      object(stdClass)#144 (14) {
+        ["time"]=>
+        int(1464044400)
+        ["summary"]=>
+        string(13) "Partly Cloudy"
+        ["icon"]=>
+        string(19) "partly-cloudy-night"
+        ["precipIntensity"]=>
+        int(0)
+        ["precipProbability"]=>
+        int(0)
+        ["temperature"]=>
+        int(8)
+        ["apparentTemperature"]=>
+        float(4.11)
+        ["dewPoint"]=>
+        float(4.66)
+        ["humidity"]=>
+        float(0.79)
+        ["windSpeed"]=>
+        float(7.87)
+        ["windBearing"]=>
+        int(344)
+        ["cloudCover"]=>
+        float(0.33)
+        ["pressure"]=>
+        float(1014.71)
+        ["ozone"]=>
+        float(360.89)
+      }
+      [32]=>
+      object(stdClass)#145 (14) {
+        ["time"]=>
+        int(1464048000)
+        ["summary"]=>
+        string(5) "Clear"
+        ["icon"]=>
+        string(11) "clear-night"
+        ["precipIntensity"]=>
+        int(0)
+        ["precipProbability"]=>
+        int(0)
+        ["temperature"]=>
+        float(7.57)
+        ["apparentTemperature"]=>
+        float(3.61)
+        ["dewPoint"]=>
+        float(4.31)
+        ["humidity"]=>
+        float(0.8)
+        ["windSpeed"]=>
+        float(7.68)
+        ["windBearing"]=>
+        int(345)
+        ["cloudCover"]=>
+        float(0.22)
+        ["pressure"]=>
+        float(1014.95)
+        ["ozone"]=>
+        float(360.9)
+      }
+      [33]=>
+      object(stdClass)#146 (14) {
+        ["time"]=>
+        int(1464051600)
+        ["summary"]=>
+        string(13) "Partly Cloudy"
+        ["icon"]=>
+        string(19) "partly-cloudy-night"
+        ["precipIntensity"]=>
+        int(0)
+        ["precipProbability"]=>
+        int(0)
+        ["temperature"]=>
+        float(7.39)
+        ["apparentTemperature"]=>
+        float(3.28)
+        ["dewPoint"]=>
+        float(4.17)
+        ["humidity"]=>
+        float(0.8)
+        ["windSpeed"]=>
+        float(7.97)
+        ["windBearing"]=>
+        int(346)
+        ["cloudCover"]=>
+        float(0.25)
+        ["pressure"]=>
+        int(1015)
+        ["ozone"]=>
+        float(361.19)
+      }
+      [34]=>
+      object(stdClass)#147 (14) {
+        ["time"]=>
+        int(1464055200)
+        ["summary"]=>
+        string(6) "Breezy"
+        ["icon"]=>
+        string(4) "wind"
+        ["precipIntensity"]=>
+        int(0)
+        ["precipProbability"]=>
+        int(0)
+        ["temperature"]=>
+        float(7.19)
+        ["apparentTemperature"]=>
+        float(2.94)
+        ["dewPoint"]=>
+        float(4.04)
+        ["humidity"]=>
+        float(0.8)
+        ["windSpeed"]=>
+        float(8.27)
+        ["windBearing"]=>
+        int(347)
+        ["cloudCover"]=>
+        float(0.18)
+        ["pressure"]=>
+        float(1014.94)
+        ["ozone"]=>
+        float(361.57)
+      }
+      [35]=>
+      object(stdClass)#148 (14) {
+        ["time"]=>
+        int(1464058800)
+        ["summary"]=>
+        string(6) "Breezy"
+        ["icon"]=>
+        string(4) "wind"
+        ["precipIntensity"]=>
+        int(0)
+        ["precipProbability"]=>
+        int(0)
+        ["temperature"]=>
+        float(7.36)
+        ["apparentTemperature"]=>
+        float(3.1)
+        ["dewPoint"]=>
+        float(4.23)
+        ["humidity"]=>
+        float(0.81)
+        ["windSpeed"]=>
+        float(8.51)
+        ["windBearing"]=>
+        int(347)
+        ["cloudCover"]=>
+        float(0.09)
+        ["pressure"]=>
+        float(1014.96)
+        ["ozone"]=>
+        float(361.89)
+      }
+      [36]=>
+      object(stdClass)#149 (14) {
+        ["time"]=>
+        int(1464062400)
+        ["summary"]=>
+        string(6) "Breezy"
+        ["icon"]=>
+        string(4) "wind"
+        ["precipIntensity"]=>
+        int(0)
+        ["precipProbability"]=>
+        int(0)
+        ["temperature"]=>
+        float(7.56)
+        ["apparentTemperature"]=>
+        float(3.32)
+        ["dewPoint"]=>
+        float(4.44)
+        ["humidity"]=>
+        float(0.81)
+        ["windSpeed"]=>
+        float(8.62)
+        ["windBearing"]=>
+        int(347)
+        ["cloudCover"]=>
+        float(0.1)
+        ["pressure"]=>
+        float(1015.09)
+        ["ozone"]=>
+        float(362.21)
+      }
+      [37]=>
+      object(stdClass)#150 (14) {
+        ["time"]=>
+        int(1464066000)
+        ["summary"]=>
+        string(6) "Breezy"
+        ["icon"]=>
+        string(4) "wind"
+        ["precipIntensity"]=>
+        int(0)
+        ["precipProbability"]=>
+        int(0)
+        ["temperature"]=>
+        float(7.84)
+        ["apparentTemperature"]=>
+        float(3.62)
+        ["dewPoint"]=>
+        float(4.72)
+        ["humidity"]=>
+        float(0.81)
+        ["windSpeed"]=>
+        float(8.91)
+        ["windBearing"]=>
+        int(346)
+        ["cloudCover"]=>
+        float(0.2)
+        ["pressure"]=>
+        float(1015.27)
+        ["ozone"]=>
+        float(362.49)
+      }
+      [38]=>
+      object(stdClass)#151 (14) {
+        ["time"]=>
+        int(1464069600)
+        ["summary"]=>
+        string(6) "Breezy"
+        ["icon"]=>
+        string(4) "wind"
+        ["precipIntensity"]=>
+        int(0)
+        ["precipProbability"]=>
+        int(0)
+        ["temperature"]=>
+        float(8.14)
+        ["apparentTemperature"]=>
+        float(4.04)
+        ["dewPoint"]=>
+        float(4.97)
+        ["humidity"]=>
+        float(0.8)
+        ["windSpeed"]=>
+        float(8.82)
+        ["windBearing"]=>
+        int(345)
+        ["cloudCover"]=>
+        float(0.24)
+        ["pressure"]=>
+        float(1015.41)
+        ["ozone"]=>
+        float(362.5)
+      }
+      [39]=>
+      object(stdClass)#152 (14) {
+        ["time"]=>
+        int(1464073200)
+        ["summary"]=>
+        string(5) "Clear"
+        ["icon"]=>
+        string(9) "clear-day"
+        ["precipIntensity"]=>
+        int(0)
+        ["precipProbability"]=>
+        int(0)
+        ["temperature"]=>
+        float(8.6)
+        ["apparentTemperature"]=>
+        float(4.63)
+        ["dewPoint"]=>
+        float(5.31)
+        ["humidity"]=>
+        float(0.8)
+        ["windSpeed"]=>
+        float(8.83)
+        ["windBearing"]=>
+        int(343)
+        ["cloudCover"]=>
+        float(0.19)
+        ["pressure"]=>
+        float(1015.49)
+        ["ozone"]=>
+        float(362.16)
+      }
+      [40]=>
+      object(stdClass)#153 (14) {
+        ["time"]=>
+        int(1464076800)
+        ["summary"]=>
+        string(5) "Clear"
+        ["icon"]=>
+        string(9) "clear-day"
+        ["precipIntensity"]=>
+        int(0)
+        ["precipProbability"]=>
+        int(0)
+        ["temperature"]=>
+        float(9.22)
+        ["apparentTemperature"]=>
+        float(5.43)
+        ["dewPoint"]=>
+        float(5.76)
+        ["humidity"]=>
+        float(0.79)
+        ["windSpeed"]=>
+        float(8.9)
+        ["windBearing"]=>
+        int(341)
+        ["cloudCover"]=>
+        float(0.09)
+        ["pressure"]=>
+        float(1015.54)
+        ["ozone"]=>
+        float(361.54)
+      }
+      [41]=>
+      object(stdClass)#154 (14) {
+        ["time"]=>
+        int(1464080400)
+        ["summary"]=>
+        string(5) "Clear"
+        ["icon"]=>
+        string(9) "clear-day"
+        ["precipIntensity"]=>
+        int(0)
+        ["precipProbability"]=>
+        int(0)
+        ["temperature"]=>
+        float(9.95)
+        ["apparentTemperature"]=>
+        float(6.39)
+        ["dewPoint"]=>
+        float(6.28)
+        ["humidity"]=>
+        float(0.78)
+        ["windSpeed"]=>
+        float(8.87)
+        ["windBearing"]=>
+        int(339)
+        ["cloudCover"]=>
+        float(0.02)
+        ["pressure"]=>
+        float(1015.57)
+        ["ozone"]=>
+        float(360.63)
+      }
+      [42]=>
+      object(stdClass)#155 (14) {
+        ["time"]=>
+        int(1464084000)
+        ["summary"]=>
+        string(5) "Clear"
+        ["icon"]=>
+        string(9) "clear-day"
+        ["precipIntensity"]=>
+        int(0)
+        ["precipProbability"]=>
+        int(0)
+        ["temperature"]=>
+        float(10.79)
+        ["apparentTemperature"]=>
+        float(10.79)
+        ["dewPoint"]=>
+        float(6.88)
+        ["humidity"]=>
+        float(0.77)
+        ["windSpeed"]=>
+        float(8.7)
+        ["windBearing"]=>
+        int(337)
+        ["cloudCover"]=>
+        float(0.02)
+        ["pressure"]=>
+        float(1015.6)
+        ["ozone"]=>
+        float(359.31)
+      }
+      [43]=>
+      object(stdClass)#156 (14) {
+        ["time"]=>
+        int(1464087600)
+        ["summary"]=>
+        string(5) "Clear"
+        ["icon"]=>
+        string(9) "clear-day"
+        ["precipIntensity"]=>
+        int(0)
+        ["precipProbability"]=>
+        int(0)
+        ["temperature"]=>
+        float(11.77)
+        ["apparentTemperature"]=>
+        float(11.77)
+        ["dewPoint"]=>
+        float(7.58)
+        ["humidity"]=>
+        float(0.76)
+        ["windSpeed"]=>
+        float(8.44)
+        ["windBearing"]=>
+        int(334)
+        ["cloudCover"]=>
+        float(0.04)
+        ["pressure"]=>
+        float(1015.63)
+        ["ozone"]=>
+        float(357.69)
+      }
+      [44]=>
+      object(stdClass)#157 (14) {
+        ["time"]=>
+        int(1464091200)
+        ["summary"]=>
+        string(5) "Clear"
+        ["icon"]=>
+        string(9) "clear-day"
+        ["precipIntensity"]=>
+        int(0)
+        ["precipProbability"]=>
+        int(0)
+        ["temperature"]=>
+        float(12.74)
+        ["apparentTemperature"]=>
+        float(12.74)
+        ["dewPoint"]=>
+        float(8.31)
+        ["humidity"]=>
+        float(0.74)
+        ["windSpeed"]=>
+        float(8.17)
+        ["windBearing"]=>
+        int(332)
+        ["cloudCover"]=>
+        float(0.07)
+        ["pressure"]=>
+        float(1015.6)
+        ["ozone"]=>
+        float(356.03)
+      }
+      [45]=>
+      object(stdClass)#158 (14) {
+        ["time"]=>
+        int(1464094800)
+        ["summary"]=>
+        string(5) "Clear"
+        ["icon"]=>
+        string(9) "clear-day"
+        ["precipIntensity"]=>
+        int(0)
+        ["precipProbability"]=>
+        int(0)
+        ["temperature"]=>
+        float(13.64)
+        ["apparentTemperature"]=>
+        float(13.64)
+        ["dewPoint"]=>
+        float(8.99)
+        ["humidity"]=>
+        float(0.74)
+        ["windSpeed"]=>
+        float(7.93)
+        ["windBearing"]=>
+        int(332)
+        ["cloudCover"]=>
+        float(0.08)
+        ["pressure"]=>
+        float(1015.45)
+        ["ozone"]=>
+        float(354.3)
+      }
+      [46]=>
+      object(stdClass)#159 (14) {
+        ["time"]=>
+        int(1464098400)
+        ["summary"]=>
+        string(5) "Clear"
+        ["icon"]=>
+        string(9) "clear-day"
+        ["precipIntensity"]=>
+        int(0)
+        ["precipProbability"]=>
+        int(0)
+        ["temperature"]=>
+        float(14.41)
+        ["apparentTemperature"]=>
+        float(14.41)
+        ["dewPoint"]=>
+        float(9.57)
+        ["humidity"]=>
+        float(0.73)
+        ["windSpeed"]=>
+        float(7.64)
+        ["windBearing"]=>
+        int(332)
+        ["cloudCover"]=>
+        float(0.08)
+        ["pressure"]=>
+        float(1015.26)
+        ["ozone"]=>
+        float(352.52)
+      }
+      [47]=>
+      object(stdClass)#160 (14) {
+        ["time"]=>
+        int(1464102000)
+        ["summary"]=>
+        string(5) "Clear"
+        ["icon"]=>
+        string(9) "clear-day"
+        ["precipIntensity"]=>
+        int(0)
+        ["precipProbability"]=>
+        int(0)
+        ["temperature"]=>
+        float(14.87)
+        ["apparentTemperature"]=>
+        float(14.87)
+        ["dewPoint"]=>
+        float(9.93)
+        ["humidity"]=>
+        float(0.72)
+        ["windSpeed"]=>
+        float(7.21)
+        ["windBearing"]=>
+        int(333)
+        ["cloudCover"]=>
+        float(0.09)
+        ["pressure"]=>
+        float(1015.11)
+        ["ozone"]=>
+        float(351.03)
+      }
+      [48]=>
+      object(stdClass)#161 (14) {
+        ["time"]=>
+        int(1464105600)
+        ["summary"]=>
+        string(5) "Clear"
+        ["icon"]=>
+        string(9) "clear-day"
+        ["precipIntensity"]=>
+        int(0)
+        ["precipProbability"]=>
+        int(0)
+        ["temperature"]=>
+        float(14.58)
+        ["apparentTemperature"]=>
+        float(14.58)
+        ["dewPoint"]=>
+        float(9.69)
+        ["humidity"]=>
+        float(0.73)
+        ["windSpeed"]=>
+        float(6.59)
+        ["windBearing"]=>
+        int(336)
+        ["cloudCover"]=>
+        float(0.08)
+        ["pressure"]=>
+        float(1015.07)
+        ["ozone"]=>
+        float(350.01)
+      }
+    }
+  }
+  ["daily"]=>
+  object(stdClass)#162 (3) {
+    ["summary"]=>
+    string(65) "Light rain today, with temperatures rising to 17°C on Wednesday."
+    ["icon"]=>
+    string(4) "rain"
+    ["data"]=>
+    array(8) {
+      [0]=>
+      object(stdClass)#163 (27) {
+        ["time"]=>
+        int(1463868000)
+        ["summary"]=>
+        string(30) "Light rain throughout the day."
+        ["icon"]=>
+        string(4) "rain"
+        ["sunriseTime"]=>
+        int(1463885605)
+        ["sunsetTime"]=>
+        int(1463948280)
+        ["moonPhase"]=>
+        float(0.52)
+        ["precipIntensity"]=>
+        float(0.3023)
+        ["precipIntensityMax"]=>
+        float(0.7163)
+        ["precipIntensityMaxTime"]=>
+        int(1463940000)
+        ["precipProbability"]=>
+        float(0.62)
+        ["precipType"]=>
+        string(4) "rain"
+        ["temperatureMin"]=>
+        float(9.31)
+        ["temperatureMinTime"]=>
+        int(1463875200)
+        ["temperatureMax"]=>
+        float(13.68)
+        ["temperatureMaxTime"]=>
+        int(1463918400)
+        ["apparentTemperatureMin"]=>
+        float(6.22)
+        ["apparentTemperatureMinTime"]=>
+        int(1463875200)
+        ["apparentTemperatureMax"]=>
+        float(13.68)
+        ["apparentTemperatureMaxTime"]=>
+        int(1463918400)
+        ["dewPoint"]=>
+        float(9.93)
+        ["humidity"]=>
+        float(0.93)
+        ["windSpeed"]=>
+        float(3.84)
+        ["windBearing"]=>
+        int(163)
+        ["visibility"]=>
+        float(7.1)
+        ["cloudCover"]=>
+        float(0.61)
+        ["pressure"]=>
+        float(1005.94)
+        ["ozone"]=>
+        float(363.87)
+      }
+      [1]=>
+      object(stdClass)#164 (26) {
+        ["time"]=>
+        int(1463954400)
+        ["summary"]=>
+        string(33) "Mostly cloudy throughout the day."
+        ["icon"]=>
+        string(17) "partly-cloudy-day"
+        ["sunriseTime"]=>
+        int(1463971894)
+        ["sunsetTime"]=>
+        int(1464034801)
+        ["moonPhase"]=>
+        float(0.55)
+        ["precipIntensity"]=>
+        float(0.0254)
+        ["precipIntensityMax"]=>
+        float(0.1067)
+        ["precipIntensityMaxTime"]=>
+        int(1463954400)
+        ["precipProbability"]=>
+        float(0.17)
+        ["precipType"]=>
+        string(4) "rain"
+        ["temperatureMin"]=>
+        float(7.81)
+        ["temperatureMinTime"]=>
+        int(1463968800)
+        ["temperatureMax"]=>
+        float(14.47)
+        ["temperatureMaxTime"]=>
+        int(1464004800)
+        ["apparentTemperatureMin"]=>
+        float(4.82)
+        ["apparentTemperatureMinTime"]=>
+        int(1463968800)
+        ["apparentTemperatureMax"]=>
+        float(14.47)
+        ["apparentTemperatureMaxTime"]=>
+        int(1464004800)
+        ["dewPoint"]=>
+        float(8.16)
+        ["humidity"]=>
+        float(0.86)
+        ["windSpeed"]=>
+        float(6.64)
+        ["windBearing"]=>
+        int(334)
+        ["cloudCover"]=>
+        float(0.77)
+        ["pressure"]=>
+        float(1010.19)
+        ["ozone"]=>
+        float(360.48)
+      }
+      [2]=>
+      object(stdClass)#165 (24) {
+        ["time"]=>
+        int(1464040800)
+        ["summary"]=>
+        string(50) "Breezy in the morning and mostly cloudy overnight."
+        ["icon"]=>
+        string(4) "wind"
+        ["sunriseTime"]=>
+        int(1464058187)
+        ["sunsetTime"]=>
+        int(1464121320)
+        ["moonPhase"]=>
+        float(0.58)
+        ["precipIntensity"]=>
+        int(0)
+        ["precipIntensityMax"]=>
+        int(0)
+        ["precipProbability"]=>
+        int(0)
+        ["temperatureMin"]=>
+        float(7.19)
+        ["temperatureMinTime"]=>
+        int(1464055200)
+        ["temperatureMax"]=>
+        float(14.87)
+        ["temperatureMaxTime"]=>
+        int(1464102000)
+        ["apparentTemperatureMin"]=>
+        float(2.94)
+        ["apparentTemperatureMinTime"]=>
+        int(1464055200)
+        ["apparentTemperatureMax"]=>
+        float(14.87)
+        ["apparentTemperatureMaxTime"]=>
+        int(1464102000)
+        ["dewPoint"]=>
+        float(6.65)
+        ["humidity"]=>
+        float(0.77)
+        ["windSpeed"]=>
+        float(7.22)
+        ["windBearing"]=>
+        int(343)
+        ["cloudCover"]=>
+        float(0.17)
+        ["pressure"]=>
+        float(1015.25)
+        ["ozone"]=>
+        float(356.69)
+      }
+      [3]=>
+      object(stdClass)#166 (26) {
+        ["time"]=>
+        int(1464127200)
+        ["summary"]=>
+        string(33) "Mostly cloudy throughout the day."
+        ["icon"]=>
+        string(17) "partly-cloudy-day"
+        ["sunriseTime"]=>
+        int(1464144482)
+        ["sunsetTime"]=>
+        int(1464207837)
+        ["moonPhase"]=>
+        float(0.61)
+        ["precipIntensity"]=>
+        float(0.0356)
+        ["precipIntensityMax"]=>
+        float(0.0965)
+        ["precipIntensityMaxTime"]=>
+        int(1464156000)
+        ["precipProbability"]=>
+        float(0.15)
+        ["precipType"]=>
+        string(4) "rain"
+        ["temperatureMin"]=>
+        float(9.87)
+        ["temperatureMinTime"]=>
+        int(1464145200)
+        ["temperatureMax"]=>
+        float(16.52)
+        ["temperatureMaxTime"]=>
+        int(1464184800)
+        ["apparentTemperatureMin"]=>
+        float(8.39)
+        ["apparentTemperatureMinTime"]=>
+        int(1464145200)
+        ["apparentTemperatureMax"]=>
+        float(16.52)
+        ["apparentTemperatureMaxTime"]=>
+        int(1464184800)
+        ["dewPoint"]=>
+        float(7.79)
+        ["humidity"]=>
+        float(0.72)
+        ["windSpeed"]=>
+        float(2.25)
+        ["windBearing"]=>
+        int(9)
+        ["cloudCover"]=>
+        float(0.85)
+        ["pressure"]=>
+        float(1017.5)
+        ["ozone"]=>
+        float(338.31)
+      }
+      [4]=>
+      object(stdClass)#167 (26) {
+        ["time"]=>
+        int(1464213600)
+        ["summary"]=>
+        string(28) "Partly cloudy until evening."
+        ["icon"]=>
+        string(17) "partly-cloudy-day"
+        ["sunriseTime"]=>
+        int(1464230781)
+        ["sunsetTime"]=>
+        int(1464294352)
+        ["moonPhase"]=>
+        float(0.65)
+        ["precipIntensity"]=>
+        float(0.0381)
+        ["precipIntensityMax"]=>
+        float(0.0584)
+        ["precipIntensityMaxTime"]=>
+        int(1464238800)
+        ["precipProbability"]=>
+        float(0.07)
+        ["precipType"]=>
+        string(4) "rain"
+        ["temperatureMin"]=>
+        float(11.05)
+        ["temperatureMinTime"]=>
+        int(1464220800)
+        ["temperatureMax"]=>
+        float(16.11)
+        ["temperatureMaxTime"]=>
+        int(1464267600)
+        ["apparentTemperatureMin"]=>
+        float(11.05)
+        ["apparentTemperatureMinTime"]=>
+        int(1464220800)
+        ["apparentTemperatureMax"]=>
+        float(16.11)
+        ["apparentTemperatureMaxTime"]=>
+        int(1464267600)
+        ["dewPoint"]=>
+        float(8.67)
+        ["humidity"]=>
+        float(0.75)
+        ["windSpeed"]=>
+        float(1.96)
+        ["windBearing"]=>
+        int(131)
+        ["cloudCover"]=>
+        float(0.6)
+        ["pressure"]=>
+        float(1020.87)
+        ["ozone"]=>
+        float(330.02)
+      }
+      [5]=>
+      object(stdClass)#168 (26) {
+        ["time"]=>
+        int(1464300000)
+        ["summary"]=>
+        string(28) "Partly cloudy until evening."
+        ["icon"]=>
+        string(17) "partly-cloudy-day"
+        ["sunriseTime"]=>
+        int(1464317083)
+        ["sunsetTime"]=>
+        int(1464380865)
+        ["moonPhase"]=>
+        float(0.68)
+        ["precipIntensity"]=>
+        float(0.0229)
+        ["precipIntensityMax"]=>
+        float(0.0432)
+        ["precipIntensityMaxTime"]=>
+        int(1464372000)
+        ["precipProbability"]=>
+        float(0.04)
+        ["precipType"]=>
+        string(4) "rain"
+        ["temperatureMin"]=>
+        float(10.86)
+        ["temperatureMinTime"]=>
+        int(1464314400)
+        ["temperatureMax"]=>
+        float(15.56)
+        ["temperatureMaxTime"]=>
+        int(1464350400)
+        ["apparentTemperatureMin"]=>
+        float(10.86)
+        ["apparentTemperatureMinTime"]=>
+        int(1464314400)
+        ["apparentTemperatureMax"]=>
+        float(15.56)
+        ["apparentTemperatureMaxTime"]=>
+        int(1464350400)
+        ["dewPoint"]=>
+        float(7.66)
+        ["humidity"]=>
+        float(0.7)
+        ["windSpeed"]=>
+        float(1.46)
+        ["windBearing"]=>
+        int(118)
+        ["cloudCover"]=>
+        float(0.24)
+        ["pressure"]=>
+        float(1023.98)
+        ["ozone"]=>
+        float(331.91)
+      }
+      [6]=>
+      object(stdClass)#169 (26) {
+        ["time"]=>
+        int(1464386400)
+        ["summary"]=>
+        string(30) "Mostly cloudy until afternoon."
+        ["icon"]=>
+        string(17) "partly-cloudy-day"
+        ["sunriseTime"]=>
+        int(1464403388)
+        ["sunsetTime"]=>
+        int(1464467375)
+        ["moonPhase"]=>
+        float(0.71)
+        ["precipIntensity"]=>
+        float(0.0127)
+        ["precipIntensityMax"]=>
+        float(0.0356)
+        ["precipIntensityMaxTime"]=>
+        int(1464462000)
+        ["precipProbability"]=>
+        float(0.03)
+        ["precipType"]=>
+        string(4) "rain"
+        ["temperatureMin"]=>
+        float(10.89)
+        ["temperatureMinTime"]=>
+        int(1464404400)
+        ["temperatureMax"]=>
+        float(16.52)
+        ["temperatureMaxTime"]=>
+        int(1464444000)
+        ["apparentTemperatureMin"]=>
+        float(10.89)
+        ["apparentTemperatureMinTime"]=>
+        int(1464404400)
+        ["apparentTemperatureMax"]=>
+        float(16.52)
+        ["apparentTemperatureMaxTime"]=>
+        int(1464444000)
+        ["dewPoint"]=>
+        float(6.93)
+        ["humidity"]=>
+        float(0.65)
+        ["windSpeed"]=>
+        float(3.67)
+        ["windBearing"]=>
+        int(105)
+        ["cloudCover"]=>
+        float(0.41)
+        ["pressure"]=>
+        float(1023.04)
+        ["ozone"]=>
+        float(337.26)
+      }
+      [7]=>
+      object(stdClass)#170 (26) {
+        ["time"]=>
+        int(1464472800)
+        ["summary"]=>
+        string(29) "Partly cloudy in the morning."
+        ["icon"]=>
+        string(17) "partly-cloudy-day"
+        ["sunriseTime"]=>
+        int(1464489696)
+        ["sunsetTime"]=>
+        int(1464553882)
+        ["moonPhase"]=>
+        float(0.75)
+        ["precipIntensity"]=>
+        float(0.0178)
+        ["precipIntensityMax"]=>
+        float(0.0279)
+        ["precipIntensityMaxTime"]=>
+        int(1464472800)
+        ["precipProbability"]=>
+        float(0.02)
+        ["precipType"]=>
+        string(4) "rain"
+        ["temperatureMin"]=>
+        float(10.35)
+        ["temperatureMinTime"]=>
+        int(1464490800)
+        ["temperatureMax"]=>
+        float(16.28)
+        ["temperatureMaxTime"]=>
+        int(1464530400)
+        ["apparentTemperatureMin"]=>
+        float(10.35)
+        ["apparentTemperatureMinTime"]=>
+        int(1464490800)
+        ["apparentTemperatureMax"]=>
+        float(16.28)
+        ["apparentTemperatureMaxTime"]=>
+        int(1464530400)
+        ["dewPoint"]=>
+        float(6.04)
+        ["humidity"]=>
+        float(0.62)
+        ["windSpeed"]=>
+        float(3.03)
+        ["windBearing"]=>
+        int(95)
+        ["cloudCover"]=>
+        float(0.15)
+        ["pressure"]=>
+        float(1022.02)
+        ["ozone"]=>
+        float(342.53)
+      }
+    }
+  }
+  ["flags"]=>
+  object(stdClass)#171 (5) {
+    ["sources"]=>
+    array(7) {
+      [0]=>
+      string(3) "gfs"
+      [1]=>
+      string(3) "cmc"
+      [2]=>
+      string(5) "fnmoc"
+      [3]=>
+      string(8) "metno_ne"
+      [4]=>
+      string(8) "metno_ce"
+      [5]=>
+      string(3) "isd"
+      [6]=>
+      string(5) "madis"
+    }
+    ["metno-license"]=>
+    string(79) "Based on data from the Norwegian Meteorological Institute. (http://api.met.no/)"
+    ["isd-stations"]=>
+    array(5) {
+      [0]=>
+      string(12) "014110-99999"
+      [1]=>
+      string(12) "014130-99999"
+      [2]=>
+      string(12) "014150-99999"
+      [3]=>
+      string(12) "014160-99999"
+      [4]=>
+      string(12) "014190-99999"
+    }
+    ["madis-stations"]=>
+    array(2) {
+      [0]=>
+      string(4) "ENHD"
+      [1]=>
+      string(4) "ENZV"
+    }
+    ["units"]=>
+    string(2) "si"
+  }
+  ["headers"]=>
+  array(13) {
+    [0]=>
+    string(15) "HTTP/1.1 200 OK"
+    [1]=>
+    string(28) "Server: nginx/1.4.6 (Ubuntu)"
+    [2]=>
+    string(35) "Date: Sun, 22 May 2016 16:58:55 GMT"
+    [3]=>
+    string(45) "Content-Type: application/json; charset=utf-8"
+    [4]=>
+    string(21) "Content-Length: 19838"
+    [5]=>
+    string(17) "Connection: close"
+    [6]=>
+    string(23) "X-Forecast-API-Calls: 2"
+    [7]=>
+    string(27) "Cache-Control: max-age=3600"
+    [8]=>
+    string(40) "Expires: Sun, 22 May 2016 17:58:55 +0000"
+    [9]=>
+    string(31) "X-Content-Type-Options: nosniff"
+    [10]=>
+    string(37) "ETag: W/"4d7e-vEMIRyGEN6DYcjhasze42Q""
+    [11]=>
+    string(25) "X-Response-Time: 49.924ms"
+    [12]=>
+    string(18) "X-Hostname: 29.api"
+  }
+}

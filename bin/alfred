@@ -3,29 +3,37 @@
 
 require __DIR__ .'/../vendor/autoload.php';
 
-use Alfred\Command\Calendar;
-use Alfred\Command\Email;
-use Alfred\Command\Account;
+use Alfred\Google\Command\Calendar;
+use Alfred\Google\Command\Email;
+use Alfred\Google\Command\Account;
+use Alfred\Forecast\Command\Forecast;
 use Symfony\Component\Console\Application;
 
 $console = new Application;
 $console->setName('Alfred');
 $console->setVersion('0.1');
 
-$console->add(new Account\Register());
-$console->add(new Account\Show());
-$console->add(new Account\SetDefault());
-$console->add(new Calendar\Next());
-$console->add(new Calendar\Today());
-$console->add(new Calendar\Week());
-$console->add(new Calendar\Month());
-$console->add(new Calendar\Search());
-$console->add(new Calendar\Info());
-$console->add(new Email\Unread());
-$console->add(new Email\Search());
-$console->add(new Email\Inbox());
-$console->add(new Email\Sent());
-$console->add(new Email\Chat());
+$configuration = new \Alfred\Configuration();
+$google_service_factory = new \Alfred\Google\ServiceFactory($configuration);
+$forecast_service_factory = new \Alfred\Forecast\ServiceFactory($configuration);
+
+$console->add(new Account\Register($google_service_factory));
+$console->add(new Account\Show($google_service_factory));
+$console->add(new Account\SetDefault($google_service_factory));
+$console->add(new Calendar\Next($google_service_factory));
+$console->add(new Calendar\Today($google_service_factory));
+$console->add(new Calendar\Week($google_service_factory));
+$console->add(new Calendar\Month($google_service_factory));
+$console->add(new Calendar\Search($google_service_factory));
+$console->add(new Calendar\Info($google_service_factory));
+$console->add(new Email\Unread($google_service_factory));
+$console->add(new Email\Search($google_service_factory));
+$console->add(new Email\Inbox($google_service_factory));
+$console->add(new Email\Sent($google_service_factory));
+$console->add(new Email\Chat($google_service_factory));
+$console->add(new Forecast\Now($forecast_service_factory));
+$console->add(new Forecast\Today($forecast_service_factory));
+$console->add(new Forecast\Week($forecast_service_factory));
 
 
 $console->run();

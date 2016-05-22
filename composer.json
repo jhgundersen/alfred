@@ -8,7 +8,8 @@
   ],
   "require": {
     "symfony/console": "3.*",
-    "google/apiclient": "1.*"
+    "google/apiclient": "1.*",
+    "guhelski/forecast-php": "1.1.*"
   },
   "autoload": {
     "psr-0": {

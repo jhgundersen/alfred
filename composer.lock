@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "00fef9ae459711eabcdb3b26ad02e443",
-    "content-hash": "9dd448c6cd7faf20e70717ece8c3a551",
+    "hash": "5d9b52cdd4297cd79a16856bddd62566",
+    "content-hash": "e7c48f655dafb9e5b8ec86da6bc27449",
     "packages": [
         {
             "name": "google/apiclient",
@@ -49,6 +49,48 @@
                 "google"
             ],
             "time": "2016-02-02 18:50:42"
+        },
+        {
+            "name": "guhelski/forecast-php",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guhelski/forecast-php.git",
+                "reference": "f68f85ba6cf93e100e8194e9f05daa64ad146352"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guhelski/forecast-php/zipball/f68f85ba6cf93e100e8194e9f05daa64ad146352",
+                "reference": "f68f85ba6cf93e100e8194e9f05daa64ad146352",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Guilherme Uhelski",
+                    "email": "guilherme@uhelski.org",
+                    "homepage": "http://uhelski.org"
+                }
+            ],
+            "description": "Drop dead simple Forecast.io API v2 wrapper in PHP",
+            "keywords": [
+                "forecast",
+                "forecast.io",
+                "weather"
+            ],
+            "time": "2015-07-23 17:47:53"
         },
         {
             "name": "symfony/console",
