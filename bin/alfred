@@ -7,6 +7,7 @@ use Alfred\Google\Command\Calendar;
 use Alfred\Google\Command\Email;
 use Alfred\Google\Command\Account;
 use Alfred\Forecast\Command\Forecast;
+use Alfred\Worklog\Command\Worklog;
 use Symfony\Component\Console\Application;
 
 $console = new Application;
@@ -16,6 +17,7 @@ $console->setVersion('0.1');
 $configuration = new \Alfred\Configuration();
 $google_service_factory = new \Alfred\Google\ServiceFactory($configuration);
 $forecast_service_factory = new \Alfred\Forecast\ServiceFactory($configuration);
+$worklog_service_factory = new \Alfred\Worklog\ServiceFactory($configuration);
 
 $console->add(new Account\Register($google_service_factory));
 $console->add(new Account\Show($google_service_factory));
@@ -35,6 +37,8 @@ $console->add(new Email\Chat($google_service_factory));
 $console->add(new Forecast\Now($forecast_service_factory));
 $console->add(new Forecast\Today($forecast_service_factory));
 $console->add(new Forecast\Week($forecast_service_factory));
+$console->add(new Worklog\Summary($worklog_service_factory));
+$console->add(new Worklog\Show($worklog_service_factory));
 
 
 $console->run();
