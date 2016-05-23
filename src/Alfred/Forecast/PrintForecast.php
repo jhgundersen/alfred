@@ -70,13 +70,15 @@ class PrintForecast {
 		foreach($forecasts as $forecast){
 			$date = $this->getDate($forecast);
 
-			$output->writeln(sprintf("%s %'.02d-%'.02d°C %s-%s(%s) %s",
+			$output->writeln(sprintf("%s %'.02d-%'.02d°C %s-%s(%s) %.2f m/s %s %s",
 				$date->format('D d.m'),
 				$forecast->temperatureMin,
 				$forecast->temperatureMax,
 				round($forecast->precipIntensity, 2),
 				$this->getFormattedPrecipitation($forecast->precipIntensityMax),
 				$this->getFormattedProbability($forecast->precipPropability),
+				$forecast->windSpeed,
+				$this->getWindBearing($forecast->windBearing),
 				$forecast->summary
 			));
 		}
@@ -163,7 +165,7 @@ class PrintForecast {
 	}
 
 	private function getFormattedPrecipitation($precipitation){
-		return round($precipitation, 2) . "mm";
+		return round($precipitation, 2) . " mm";
 	}
 
 	private function getFormattedProbability($probability) {
