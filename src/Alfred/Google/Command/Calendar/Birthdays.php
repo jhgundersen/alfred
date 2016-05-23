@@ -25,7 +25,7 @@ class Birthdays extends Command {
 		$searcher->setMaxTime($date->modify('+30 days'));
 		$searcher->setCalendars(['#contacts@group.v.calendar.google.com']);
 
-		$printer = new PrintEvents('D d.m H:i');
+		$printer = new PrintEvents('D d.m');
 		$printer->printEvents($searcher->search());
 	}
 }
