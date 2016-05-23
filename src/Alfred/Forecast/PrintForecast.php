@@ -28,7 +28,7 @@ class PrintForecast {
 				$lines[$column] = [];
 			}
 
-			$lines[$column][] = sprintf("%s %d°C %s(%s) %s",
+			$lines[$column][] = sprintf("%s %'.02d°C %s(%s) %s",
 				$date->format('H:i'),
 				$forecast->temperature,
 				$this->getFormattedPrecipitation($forecast->precipIntensity),
