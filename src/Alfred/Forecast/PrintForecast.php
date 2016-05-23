@@ -3,6 +3,7 @@
 namespace Alfred\Forecast;
 use DateTime;
 use DateTimeZone;
+use Symfony\Component\Console\Helper\Table;
 use Symfony\Component\Console\Output\OutputInterface;
 
 class PrintForecast {
@@ -16,18 +17,50 @@ class PrintForecast {
 		));
 	}
 
-	public function printHourlyForecast(array $forecasts, OutputInterface $output){
+	public function printHourlyForecast($summary, array $forecasts, OutputInterface $output){
+		$lines = [];
+
 		foreach($forecasts as $forecast){
 			$date = $this->getDate($forecast);
+			$column = $date->format('l');
 
-			$output->writeln(sprintf("%s %d°C %s(%s) %s",
-				$date->format('D H:i'),
+			if(!isset($lines[$column])){
+				$lines[$column] = [];
+			}
+
+			$lines[$column][] = sprintf("%s %d°C %s(%s) %s",
+				$date->format('H:i'),
 				$forecast->temperature,
 				$this->getFormattedPrecipitation($forecast->precipIntensity),
 				$this->getFormattedProbability($forecast->precipProbability),
 				$forecast->summary
-			));
+			);
 		}
+
+		$headers = array_keys($lines);
+
+		$max = 0;
+		foreach($headers as $header){
+			$max = max($max, count($lines[$header]));
+		}
+
+		$rows = [];
+		for($i = 0; $i < $max; $i++){
+			$row = [];
+
+			foreach($headers as $header){
+				$row[] = isset($lines[$header][$i]) ? $lines[$header][$i] : '';
+			}
+
+			$rows[] = $row;
+		}
+
+		$table = new Table($output);
+		$table->setHeaders($headers);
+		$table->setRows($rows);
+		$table->setStyle('borderless');
+		$table->render();
+		$output->writeln("<option=bold>Summary: $summary</>");
 	}
 
 	public function printDailyForecast(array $forecasts, OutputInterface $output){

@@ -28,7 +28,7 @@ class Today extends Command {
 
 
 		$printer = new PrintForecast();
-		$printer->printHourlyForecast($result->hourly->data, $output);
+		$printer->printHourlyForecast($result->hourly->summary, $result->hourly->data, $output);
 	}
 
 }
