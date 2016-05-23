@@ -26,6 +26,6 @@ class Birthdays extends Command {
 		$searcher->setCalendars(['#contacts@group.v.calendar.google.com']);
 
 		$printer = new PrintEvents('D d.m');
-		$printer->printEvents($searcher->search());
+		$printer->printEvents($searcher->search(), $output);
 	}
 }

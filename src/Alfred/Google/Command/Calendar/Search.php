@@ -38,6 +38,6 @@ class Search extends Command {
 		$searcher->setCalendars($input->getOption('calendar'));
 
 		$printer = new PrintEvents('D d.m H:i');
-		$printer->printEvents($searcher->search());
+		$printer->printEvents($searcher->search(), $output);
 	}
 }

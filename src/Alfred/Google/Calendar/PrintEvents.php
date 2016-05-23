@@ -2,10 +2,12 @@
 namespace Alfred\Google\Calendar;
 
 use DateTime;
+use Symfony\Component\Console\Output\OutputInterface;
 
 class PrintEvents {
 
 	private $date_format;
+	private $max_length;
 
 	public function __construct($date_format) {
 		$this->date_format = $date_format;
@@ -13,8 +15,9 @@ class PrintEvents {
 
 	/**
 	 * @param array|\Google_Service_Calendar_Event[] $events
+	 * @param OutputInterface $output
 	 */
-	public function printEvents(array $events){
+	public function printEvents(array $events, OutputInterface $output){
 		foreach($events as $event){
 			$start = new DateTime($event->start->dateTime ?: $event->start->date);
 			$end = new DateTime($event->end->dateTime ?: $event->end->date);
@@ -28,11 +31,21 @@ class PrintEvents {
 					$end->modify('-1min');
 				}
 				
-				printf("%s-%s %s\n", $start->format('D d.m'), $end->format('d.m'), $summary);
+				$line = sprintf("%s-%s %s", $start->format('D d.m'), $end->format('d.m'), $summary);
 			}
 			else {
-				printf("%s %s\n", $start->format($this->date_format), $summary);
+				$line = sprintf("%s %s", $start->format($this->date_format), $summary);
 			}
+
+			if($this->max_length && strlen($line) > $this->max_length){
+				$line = mb_strcut($line, 0, $this->max_length - 3 ) . '...';
+			}
+
+			$output->writeln($line);
 		}
+	}
+
+	public function setMaxLength($max_length) {
+		$this->max_length = $max_length;
 	}
 }

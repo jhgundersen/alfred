@@ -26,6 +26,6 @@ class Today extends Command {
 		$searcher->setCalendars($input->getOption('calendar'));
 
 		$printer = new PrintEvents('H:i');
-		$printer->printEvents($searcher->search());
+		$printer->printEvents($searcher->search(), $output);
 	}
 }
