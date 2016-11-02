@@ -74,9 +74,9 @@ class PrintForecast {
 				$date->format('D d.m'),
 				$forecast->temperatureMin,
 				$forecast->temperatureMax,
-				round($forecast->precipIntensity, 2),
-				$this->getFormattedPrecipitation($forecast->precipIntensityMax),
-				$this->getFormattedProbability($forecast->precipPropability),
+				isset($forecast->precipIntensity) ? round($forecast->precipIntensity, 2) : 0,
+				isset($forecast->precipIntensityMax) ? $this->getFormattedPrecipitation($forecast->precipIntensityMax) : '0mm',
+				isset($forecast->precipPropability) ? $this->getFormattedProbability($forecast->precipPropability) : '0%',
 				$forecast->windSpeed,
 				$this->getWindBearing($forecast->windBearing),
 				$forecast->summary
